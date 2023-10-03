@@ -21,7 +21,7 @@ btnCrear.addEventListener("click",()=>{
             if(e.target.closest(selector)){
                handler(e)
              }
-       })
+       }) oki
    } 
   //  procedimiento borrar 
 
@@ -162,7 +162,7 @@ const listUsers = async () => {
         users.forEach((user) => {
             content += `
                 <tr>
-                    <td>${user.id_equipo}</td>
+                    <td>${user.id}</td>
                     <td>${user.nombre}</td>
                     <td>${user.logo}</td>
                                      
