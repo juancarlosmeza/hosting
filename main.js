@@ -60,7 +60,7 @@ btnCrear.addEventListener("click",()=>{
 // prcedimiento para crear y editar
 formArticulo.addEventListener("submit",(e)=>{
     e.preventDefault()
-    if(opcion=="crear")
+    if(opcion==="crear")
     {
       
         console.log("crear")
