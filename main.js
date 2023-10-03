@@ -21,7 +21,7 @@ btnCrear.addEventListener("click",()=>{
             if(e.target.closest(selector)){
                handler(e)
              }
-       }) oki
+       }) 
    } 
   //  procedimiento borrar 
 
